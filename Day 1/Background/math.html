@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(24, 8, 53);
+            color: white;
+        }
+
+        #container {
+            max-width: 1200px;
+            height: 500px;
+            margin-left: 150px;
+            margin-top: 150px;
+            display: grid;
+            text-align: center;
+            grid-template-columns: repeat(2, 600px);
+            background-image: linear-gradient(to right, #f35160, #cc6cd0, #34b8e5);
+            border-radius: 40px;
+        }
+
+        #container1 {
+            text-align: center;
+            width: 200px;
+            height: 280px;
+            margin-left: 90px;
+            margin-top: 58px;
+            border: 2px solid black;
+            padding: 50px;
+            border-radius: 30px;
+            background-image: linear-gradient(to left, #3a3a3a, #090909);
+        }
+
+        #container2 {
+            text-align: center;
+            width: 500px;
+            height: 320px;
+            margin-left: -50px;
+            margin-top: 58px;
+            border: 2px solid black;
+            padding: 28px;
+            border-radius: 30px;
+            background-image: linear-gradient(to left, #3a3a3a, #090909);
+            color: white;
+            margin-right: 50px;
+        }
+
+        .img {
+            border-radius: 50%;
+            margin-top: 20px;
+            background-color: #180835;
+        }
+
+        #maddy {
+            background: linear-gradient(to right, #a73b87, #d3db0e);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: larger;
+
+        }
+        .name{
+            margin-left: -90px;
+        }
+        .age{
+            margin-left: -140px;
+        }
+        .phno{
+            margin-left: -60px;
+        }
+        .last{
+            margin-left: 50px;
+        }
+        .sec1{
+            background-image: linear-gradient(to right,rgb(255,95,167),rgb(227,184,168));
+            -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
+        .p9{
+            padding-top: 90px;
+            padding-left: 250px;
+            text-align: center;
+            font-weight: 900;
+            font-size: larger; 
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="container1">
+            <div class="box1">
+                <img class="img" src="profile-pic.png" alt="" style="height: 120px; width: 120px;">
+                <h3 class="sec1"> Mathesh.V </h3>
+                <h4 style="color: white;"> Web Developer</h4>
+            </div>
+        </div>
+        <div id="container2">
+            <h2 class="sec1">Profile Details</h2>
+            <tr>
+                <p class="name sec">Name : Mathesh</p>
+            </tr>
+            <tr>
+                <p class="age">Age : 35</p>
+            </tr>
+            <tr>
+                <p class="phno">Mobile : 1234567890</p>
+            </tr>
+            <tr>
+                <p class="email">Email: mathesh02@gmail.com</p>
+            </tr>
+            <tr>
+                <p class="last">Address : 123, Main St,Anytown, USA.</p>
+            </tr>
+            <br><br>
+            <tr>
+                <p>Made with by 💓<span>Learning Robo</span></p>
+
+            </tr>
+            <tr>
+                <p  class="p9" > 
+                    <img src="robot.jpeg" alt="" width="50px" height="50px" class="img" >
+                    Learning Robo
+                </p></tr>
+            
+        </div>
+       
+    </div>
+</body>
+
+</html>
